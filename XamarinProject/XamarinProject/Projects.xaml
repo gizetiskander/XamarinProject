@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinProject.Projects">
-    <ResourceDictionary>
+    <ContentPage.Resources>
+        <ResourceDictionary>
         <x:Array x:Key="Projects" Type="{x:Type x:String}">
             <x:String >Проект 1</x:String>
             <x:String >Проект 2</x:String>

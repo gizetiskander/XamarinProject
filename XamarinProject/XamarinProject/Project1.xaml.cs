@@ -10,16 +10,11 @@ using Xamarin.Forms.Xaml;
 namespace XamarinProject
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Signup : ContentPage
+    public partial class Project1 : TabbedPage
     {
-        public Signup()
+        public Project1()
         {
             InitializeComponent();
-        }
-
-        private async void SignIntn_Clicked(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new Signup());
         }
     }
 }
