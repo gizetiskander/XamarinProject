@@ -16,5 +16,10 @@ namespace XamarinProject
         {
             InitializeComponent();
         }
+
+        private void projectList_ItemTapped(object sender, ItemTappedEventArgs e)
+        {
+            Navigation.PushAsync(new Project1());
+        }
     }
 }
