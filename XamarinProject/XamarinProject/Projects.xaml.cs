@@ -21,5 +21,10 @@ namespace XamarinProject
         {
             Navigation.PushAsync(new Project1());
         }
+
+        private void CreatePage_Tapped(object sender, EventArgs e)
+        {
+            Navigation.PushAsync(new CreatePage());
+        }
     }
 }

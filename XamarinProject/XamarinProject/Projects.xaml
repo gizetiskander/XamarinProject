@@ -2,6 +2,14 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="XamarinProject.Projects">
+    <StackLayout Margin="0,0,30,0" Orientation="Horizontal">
+        <Label HorizontalOptions="CenterAndExpand" TextColor="White" Text="Проекты" FontSize="Title" />
+        <Label HorizontalOptions="End" FontFamily="MaterialIconsFont" TextColor="White" Text="&#xe145;" FontSize="Title">
+            <Label.GestureRecognizers>
+                <TapGestureRecognizer Tapped="CreatePage_Tapped" />
+            </Label.GestureRecognizers>
+        </Label>
+    </StackLayout>
     <ContentPage.Resources>
         <ResourceDictionary>
         <x:Array x:Key="Projects" Type="{x:Type x:String}">

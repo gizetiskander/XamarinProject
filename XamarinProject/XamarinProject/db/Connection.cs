@@ -5,7 +5,7 @@ using SQLite;
 
 namespace XamarinProject.db
 {
-    class Connection
+    public class Connection
     {
         SQLiteConnection db;
         public Connection(string databasePath)
