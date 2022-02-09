@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="XamarinProject.Images" Title="Картинки">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="Image1" WidthRequest="200" HeightRequest="200" Scale="0.8" Source="House.png"/>
+                <Image x:Name="Image2" WidthRequest="200" HeightRequest="200" Scale="0.8" Source="House.png"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="Image3" WidthRequest="200" HeightRequest="200" Scale="0.8" Source="House.png"/>
+                <Image x:Name="Image4" WidthRequest="200" HeightRequest="200" Scale="0.8" Source="House.png"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="Image5" WidthRequest="200" HeightRequest="200" Scale="0.8" Source="House.png"/>
+                <Image x:Name="Image6" WidthRequest="200" HeightRequest="200" Scale="0.8" Source="House.png"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image x:Name="Image7" WidthRequest="200" HeightRequest="200" Scale="0.8" Source="House.png"/>
+                <Image x:Name="Image8" WidthRequest="200" HeightRequest="200" Scale="0.8" Source="House.png"/>
+            </StackLayout>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
