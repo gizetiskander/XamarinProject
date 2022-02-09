@@ -17,7 +17,7 @@ namespace XamarinProject
             InitializeComponent();
         }
 
-        private async void SignIntn_Clicked(object sender, EventArgs e)
+        private async void SignUpBtn_Clicked(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new Signup());
         }

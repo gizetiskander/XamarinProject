@@ -23,7 +23,7 @@
                 </Frame>
             </StackLayout>
             <StackLayout Orientation="Horizontal">
-                <Button Margin="0,120,0,0" x:Name="SignUp" Font="14" TextColor="black" BorderColor="Black" BackgroundColor="LightGray" BorderWidth="1"  Clicked="SignUpBtn" Text="Зарегистрироваться" HorizontalOptions="CenterAndExpand"/>
+                <Button Margin="0,120,0,0" x:Name="SignUp" Font="14" TextColor="black" BorderColor="Black" BackgroundColor="LightGray" BorderWidth="1"  Clicked="SignUpBtn_Clicked" Text="Зарегистрироваться" HorizontalOptions="CenterAndExpand"/>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>
